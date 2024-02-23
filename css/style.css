@@ -1,18 +1,19 @@
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
 p {
-    color: #777777;
+    color: darkred;
 }
 body {
-    background-color: pink ;
+    background-image: url("../images/backgroud.jpg");
+    background-repeat: repeat;
 }
 nav {
-    float:right;
+    float: top right;
 }
 h2{
-    color:#803945;	
+    color:fuchsia;	
 }
 h3{
-    color:#7E8265;
+    color:#34ca06;
 }
 #menu{
     font-size: 110%;
@@ -21,7 +22,7 @@ h3{
 }
 
 #logo, #menu{
-    line-height: 75px;
+    line-height: 50px;
 }
 
 #menu li {
@@ -69,7 +70,7 @@ h3{
 }
 
 #cover-text h3 {
-    color:#4974a5;
+    color: aliceblue;
 }
 
 #cover-text {
@@ -98,7 +99,7 @@ h3{
 }
 .column {
     float: left;
-    width: 33%;
+    width: 30%;
     padding: 5px;
   }
 .row {
