@@ -1,6 +1,6 @@
 
 p {
-    color: darkred;
+    color: lightyellow;
 }
 body {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
@@ -13,7 +13,10 @@ h2{
     color:fuchsia;	
 }
 h3{
-    color:#34ca06;
+    color:lightblue;
+}
+h4{
+    color: aliceblue;
 }
 #menu{
     font-size: 110%;
@@ -32,14 +35,14 @@ h3{
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #f5f2f2;
 }
 .active{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #f5f4f4;
 }
 #hero-image{
     height:500px;
@@ -123,7 +126,7 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: #f0e9e9;
 }
 
 /* Testimonials */
