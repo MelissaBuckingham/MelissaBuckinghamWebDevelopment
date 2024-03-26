@@ -129,6 +129,10 @@ footer{
     color: #f0e9e9;
 }
 
+.card-body{
+    background-color: #b115ee;
+}
+
 /* Testimonials */
 
 .quote {
