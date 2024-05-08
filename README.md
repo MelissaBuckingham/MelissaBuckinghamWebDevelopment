@@ -1,39 +1,64 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Melissa Buckingham Web Development
+## Description
+The purpose of this website is to provide prospective clients with the option to view and buy web development services including Website Building, Mobile Apps, Databases,, and Ecommerce stores.
 
-Welcome,
+ 
+## UX design
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+I wanted to make the user experience as easy to use but at the same time making the website unique and interesting to use. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+USER STORIES
 
-`python3 -m http.server`
+![Screenshots of User Stories](/media/UserStories.png "User Stories")
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+WireFrame
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Screenshots of the Wireframe](/media/WireFrame.png "Wireframe")
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Accessibility Guidelines Complience
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+I created the site in order to comply to all accessibility guidelines:
 
-To log into the Heroku toolbelt CLI:
+Usage of div and span are limited as these don't tell the user anything about the content. Semantic elements preffered.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+I used landmarks such as "<header>" "<section>", and "<footer>" to allow the visually impaired to be able to navigate easily throughout the site.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+All links use the href attribute, not using div or span to simulate a link.
 
----
+I have followed the color contrast guidelines, so that writing on the images are easy to read.
 
-Happy coding!
+Labels used where appropriate to enable the visually impaired.
+
+
+
+## Bugs and Testing
+
+I Manually tested Melissa Buickingham Web Development every step of the way, using the web preview function on Gitpod. I also tested it once it was deployed to check that it was still funtioning as I had initially expected it to.
+
+Navigating between the pages via the back or forward buttons never break the site and there are no broken links.
+
+I have checked that all links are working correctly and there are no issues.)
+
+I have used a mixture of manual testing and automated testing in the creation of this website, the automated testing makes sure that it is in line with accepted standards, and the manual testing makes sure that it is comfortable for the user to use and has the correct level of interactivity.
+
+W3 Validator
+![Screenshots of the W3 test of HTML](/media/W3Validator.png "W3 Validation HTML")
+
+Jigsaw CSS Validation
+![Screenshots of the Jigsaw test of CSS](/media/Jigsaw.png "Jigsaw Validation CSS")
+No issues found at all.
+
+
+## Deployment
+My site was deployed at https://melissabuckingham.net/
+
+Debug set to False for deployment.
+
+
+## Credits
+
+A lot of help used from previous sites that I have built.
