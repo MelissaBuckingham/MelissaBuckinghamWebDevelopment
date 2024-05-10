@@ -1,14 +1,18 @@
 
-p {
+p, li {
     color: lightyellow;
     font-size: x-large;
 }
 body {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-                url("/images/background.jpg") 
+                url("/images/background.jpg");
+    margin: 20px;
 }
 nav {
     float: top right;
+}
+h1{
+    color: fuchsia;
 }
 h2{
     color:fuchsia;	
@@ -131,7 +135,7 @@ footer{
 }
 
 .card-body{
-    background-color: #b115ee;
+    background-color: #0d1666e7;
 }
 
 /* Testimonials */
